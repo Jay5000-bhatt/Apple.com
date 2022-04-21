@@ -631,30 +631,32 @@ a {
 
 .headline {
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 50px;
-    margin-top: 40px;
+    padding-top: 50px;
 }
 
 .desc {
     text-align: center;
-    font-weight: lighter;
-    font-size: 30px;
+    font-weight: 500 font-size: 15px;
     margin-left: 38px;
     padding-bottom: 20px;
+    margin-top: -5px;
 }
 
-.h6 {
-    text-align: center;
-    font-size: 19px;
-    display: table-row;
-    text-decoration: none;
-    margin-left: 500px;
+.span {
+    font-weight: 400;
 }
 
-#h6 {
-    margin: 0px 0px 0px 32px;
+.linktag {
+    display: flex;
+    list-style: none;
+    font-weight: 550;
+    padding-left: 575px;
+    font-size: 2ch;
+    margin-top: -20px;
 }
+
 
 .img13pro {
     display: block;
@@ -668,4 +670,24 @@ a {
 .img {
     max-width: 100%;
     height: auto;
+}
+
+.img13pro-section {
+    height: 80vh;
+    background-image: url(./images/hero_iphone13pro_avail__iy77cld0zwii_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+}
+
+#tag {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.img13pro-section h2,
+.img13pro-section h3,
+.img13pro-section h6 {
+    z-index: 100;
 }
